@@ -16,18 +16,8 @@ git clone https://github.com/matheusLdev/xsolutions-backend.git
 Acesse o diretório do projeto e instale as dependências com o seguinte comando:
 
 ```bash
-# Usando npm
-npm install
-
-# OU usando Yarn
+# Yarn
 yarn 
-```
-
-## Passo 3: Configurar o Banco de Dados
-Crie um arquivo .env na raiz do projeto com as seguintes variáveis de ambiente:
-
-```bash
-DATABASE_URL=postgresql://usuario:senha@localhost:5432/nome_do_banco
 ```
 
 ## Passo 3: Configurar o Banco de Dados
@@ -41,10 +31,7 @@ DATABASE_URL=postgresql://usuario:senha@localhost:5432/nome_do_banco
 Com o banco configurado, inicie o servidor do backend:
 
 ```bash
-# Usando npm
-npm run start
-
-# OU usando Yarn
+# Yarn
 yarn start
 ```
 
