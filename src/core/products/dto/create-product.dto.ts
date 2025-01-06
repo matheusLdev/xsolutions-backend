@@ -2,13 +2,13 @@ import { IsString, IsNumber, IsPositive, Min } from 'class-validator';
 
 export class CreateProductDto {
   @IsString()
-  nome: string;
+  name: string;
 
   @IsNumber()
   @IsPositive()
-  preco: number;
+  price: number;
 
   @IsNumber()
   @Min(0)
-  quantidade: number;
+  quantity: number;
 }
